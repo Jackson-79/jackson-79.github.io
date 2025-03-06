@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.nav-items {
+    background-color: rgb(218, 213, 213);
+    height: 60px;
+    display: flex;
+    justify-content: right;
+    gap: 40px;
+    list-style: none;
+    text-decoration: none;
+   
+}
+.nav {
+    background-color: rgb(218, 213, 213);
+}
+span {
+    padding-left: 30px;
+}
+.nav .nav-items a {
+    color: black;
+}
+.nav-items a:hover {
+    color: gray;
+    text-decoration: bold;
+}
+.nav a {
+    text-decoration: none;
+    margin-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+
+}
+.nav {
+padding-top: 5px;
