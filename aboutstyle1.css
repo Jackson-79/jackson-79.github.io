@@ -40,3 +40,13 @@ margin-left: 0px;
 .name-items img {
 margin-left: 50px;
 }
+@media only screen and (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+}
+@media only screen and (mas-width: 480px) {
+    main {
+        padding: 1em;
+    }
+}
